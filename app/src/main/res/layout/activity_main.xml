@@ -10,14 +10,16 @@
         android:id="@+id/imageButton7"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_marginTop="11dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="172dp"
         android:background="@color/browser_actions_bg_grey"
-        android:scaleType="fitCenter"
         android:contentDescription="StringValue"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
         app:srcCompat="@drawable/main_page___setting" />
 
     <ImageButton
@@ -28,8 +30,8 @@
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
         android:background="@color/browser_actions_divider_color"
-        android:scaleType="fitCenter"
         android:contentDescription="StringValue"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/main_page___register" />
@@ -55,8 +57,8 @@
         android:layout_marginLeft="4dp"
         android:layout_marginTop="148dp"
         android:background="@color/browser_actions_divider_color"
-        android:scaleType="fitStart"
         android:contentDescription="StringValue"
+        android:scaleType="fitStart"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/main_page___message" />
@@ -67,12 +69,13 @@
         android:layout_height="200dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
+        android:layout_marginTop="11dp"
         android:layout_marginBottom="172dp"
         android:background="@color/browser_actions_divider_color"
         android:scaleType="fitCenter"
-        android:contentDescription="StringValue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
         app:srcCompat="@drawable/main_page___push_alarm" />
 
     <TextView
@@ -84,7 +87,6 @@
         android:layout_marginTop="64dp"
         android:fontFamily="@font/tvnbold"
         android:text="0명"
-        android:contentDescription="StringValue"
         android:textSize="26sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
