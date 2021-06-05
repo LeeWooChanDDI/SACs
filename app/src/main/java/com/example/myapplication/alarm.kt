@@ -1,19 +1,13 @@
 package com.example.myapplication
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.content.Intent
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class alarm : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        btn1.setOnClickListener {
-                val intent = Intent(this, alarm::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.activity_alarm)
     }
 }
-
