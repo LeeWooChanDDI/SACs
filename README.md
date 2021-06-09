@@ -12,8 +12,6 @@ SACs(Security Alert Control system)
 # Use Language
 ## Front-End
 1. xml
-2. JavaScript
-3. JSON
 
 ## Back-End
 - Kotlin
